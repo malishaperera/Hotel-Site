@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Hotel Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style/main.css">
+    
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-9a4sPnvtbTFrEa2kDiz6IzJ5kmslZKadnGbN8DjFO1T9b5LcSh5r2DinDw+YO0L2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-5s59FnF6wYgaL1H3lUpqNCzjxrF5yNfoTFHDrV73TmWI5jz6NbE3+FLROPl1R98S" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Main Hotel</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#rooms">Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#booking">Booking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Carousel -->
+    <section class="home" id="home">
+        <section class="hero-section">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/asset/img/navbar1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Enjoy Your Stay To The Fullest Extent</h5>
+                            <!-- <p>Some representative placeholder content for the first slide.</p> -->
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/asset/img/navbar2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Enjoy Your Stay To The Fullest Extent</h5>
+                            <!-- <p>Some representative placeholder content for the second slide.</p> -->
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/asset/img/navbar3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Enjoy Your Stay To The Fullest Extent</h5>
+                            <!-- <p>Some representative placeholder content for the third slide.</p> -->
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+    </section>
+
+
+      <!-- About Hotel Section -->
+    <section class="about" id="about">
+        <section class="about-hotel">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 order-md-2">
+                    <img src="/asset/img/reception.jpg" class="img-fluid" alt="About Hotel">
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <h2>About Main Hotel</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <a href="#" class="btn btn-primary">Read More>></a>
+                </div>
+            </div>
+        </div>
+        </section>
+    </section>
+
+    <!-- Featured Rooms Section -->
+    <section class="rooms" id="rooms">
+        <section class="featured-rooms">
+            <div class="container">
+                <h2>Featured Rooms</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="/asset/img/room1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Standard Room</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                                <a href="#" class="btn btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="/asset/img/room2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Deluxe Room</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                                <a href="#" class="btn btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="/asset/img/room3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Suite</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                                <a href="#" class="btn btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+     <!-- Activities & Experiences Section -->
+    <section class="activities">
+        <div class="container">
+            <h2>Activities & Experiences</h2>
+            <div class="row">
+                <!-- Activity 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/asset/img/activities & experiences.jpg" class="card-img-top" alt="Activity 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Activity 1</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Activity 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/asset/img/activities & experiences.webp" class="card-img-top" alt="Activity 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Activity 2</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Activity 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/asset/img/activities & experiences2.jpg" class="card-img-top" alt="Activity 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Activity 3</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <!-- Activity 4 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/asset/img/activities & experiences3.jpg" class="card-img-top" alt="Activity 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Activity 4</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Activity 5 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/asset/img/activities & experiences4.jpg" class="card-img-top" alt="Activity 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Activity 5</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Activity 6 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="/asset/img/activities & experiences6.webp" class="card-img-top" alt="Activity 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Activity 6</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+       <!-- Booking Form -->
+    <section class="booking" id="booking">
+       <section class="booking-form">
+            <div class="container">
+                <h2>Book Your Stay</h2>
+                <form action="#" method="post">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="checkinDate">Check-in Date</label>
+                            <input type="date" class="form-control" id="checkinDate" name="checkinDate" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="checkoutDate">Check-out Date</label>
+                            <input type="date" class="form-control" id="checkoutDate" name="checkoutDate" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="roomType">Room Type</label>
+                            <select id="roomType" class="form-control" name="roomType" required>
+                                <option selected disabled>Select Room Type</option>
+                                <option>Standard Room</option>
+                                <option>Deluxe Room</option>
+                                <option>Suite</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="guests">Number of Guests</label>
+                            <input type="number" class="form-control" id="guests" name="guests" min="1" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Check Availability</button>
+                </form>
+            </div>
+        </section>
+    </section>
+
+    <!-- Review Section -->
+    <section class="review-section">
+        <div class="container">
+            <h2>Customer Reviews</h2>
+            <div id="customerReviewsCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- First Review -->
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-4 text-center">
+                                <img src="/asset/img/custome_img/customr1.jpg" class="customer-img img-fluid rounded-circle mb-3" alt="Customer 1">
+                                <h5 class="customer-name">John Doe</h5>
+                                <div class="customer-rating">
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                </div>
+                                <p class="customer-review">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Second Review -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-4 text-center">
+                                <img src="/asset/img/custome_img/customr2.jpg" class="customer-img img-fluid rounded-circle mb-3" alt="Customer 2">
+                                <h5 class="customer-name">Jane Smith</h5>
+                                <div class="customer-rating">
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                </div>
+                                <p class="customer-review">"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Third Review -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-4 text-center">
+                                <img src="/asset/img/custome_img/customr4.jpg" class="customer-img img-fluid rounded-circle mb-3" alt="Customer 3">
+                                <h5 class="customer-name">Robert Johnson</h5>
+                                <div class="customer-rating">
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                </div>
+                                <p class="customer-review">"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#customerReviewsCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#customerReviewsCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Chat Icon -->
+    <div class="chat-icon">
+        <button class="btn btn-primary" id="chatBtn">
+            <i class="fa fa-comment" style="color: #aa93ee;"></i> Chat with us
+        </button>
+    </div>
+
+      <!-- services section-->
+
+    <section class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="row">
+                <!-- Service 1 -->
+                <div class="col-md-3">
+                    <div class="service">
+                        <i class="fas fa-concierge-bell"></i>
+                        <h3>Delicious Breakfast</h3>
+                    </div>
+                </div>
+                <!-- Service 2 -->
+                <div class="col-md-3">
+                    <div class="service">
+                        <i class="fas fa-parking"></i>
+                        <h3>24 Hour Parking</h3>
+                    </div>
+                </div>
+                <!-- Service 3 -->
+                <div class="col-md-3">
+                    <div class="service">
+                        <i class="fa-solid fa-wifi"></i>
+                        <h3>WiFi Internet</h3>
+                    </div>
+                </div>
+                <!-- Service 4 -->
+                <div class="col-md-3">
+                    <div class="service">
+                        <i class="fa-solid fa-bed"></i>
+                        <h3>Room Service</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <!-- <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Main Hotel. All rights reserved.</p>
+        </div>
+    </footer> -->
+
+
+    <!-- Footer -->
+    <section class="contact" id="contact">
+        <footer class="footer bg-dark text-white">
+            <div class="container">
+                <div class="row">
+                    <!-- Contact Info -->
+                    <div class="col-md-4">
+                        <h5>Contact Us</h5>
+                        <ul class="list-unstyled">
+                            <li>Main Hotel</li>
+                            <li>123 Street Name, City</li>
+                            <li>Email: info@mainhotel.com</li>
+                            <li>Phone: +1 123-456-7890</li>
+                        </ul>
+                    </div>
+                    <!-- Quick Links -->
+                    <div class="col-md-4">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Rooms</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <!-- Social Media Icons -->
+                    <!-- <div class="col-md-4">
+                        <h5>Connect with Us</h5>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div> -->
+
+                    <div class="col-md-4">
+                        <h5>Connect with Us</h5>
+                        <p>Sign up here to receive promotions and seasonal news for Main Hotel!</p>
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="emailInput" placeholder="Your Email" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- Copyright -->
+                <div class="row">
+                    <div class="col-lg-12 text-center mt-4">
+                        <p>&copy; 2024 Main Hotel. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
